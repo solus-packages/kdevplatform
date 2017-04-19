@@ -1,0 +1,113 @@
+<PISI>
+    <Source>
+        <Name>kdevplatform</Name>
+        <Packager>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Packager>
+        <License>GPL-2.0</License>
+        <License>LGPL-2.0</License>
+        <PartOf>programming</PartOf>
+        <Summary xml:lang="en">KDevelop Platform Libraries API Reference</Summary>
+        <Description xml:lang="en">KDevelop Platform Libraries, a set of libraries used to create plugins for IDEs based on kdevplatform.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>kdevplatform</Name>
+        <Summary xml:lang="en">KDevelop Platform Libraries API Reference</Summary>
+        <Description xml:lang="en">KDevelop Platform Libraries, a set of libraries used to create plugins for IDEs based on kdevplatform.
+</Description>
+        <PartOf>programming</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="library">/usr/lib64/lib*.so.*</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/grantlee/5.1/kdev_filters.so</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/27/kdevappwizard.so</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/27/kdevbazaar.so</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/27/kdevclassbrowser.so</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/27/kdevcodeutils.so</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/27/kdevcontextbrowser.so</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/27/kdevcvs.so</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/27/kdevdocumentswitcher.so</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/27/kdevdocumentview.so</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/27/kdevexecute.so</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/27/kdevexecutescript.so</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/27/kdevexternalscript.so</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/27/kdevfilemanager.so</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/27/kdevfiletemplates.so</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/27/kdevgenericmanager.so</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/27/kdevgit.so</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/27/kdevgrepview.so</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/27/kdevkonsoleview.so</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/27/kdevopenwith.so</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/27/kdevoutlineview.so</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/27/kdevpatchreview.so</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/27/kdevperforce.so</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/27/kdevproblemreporter.so</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/27/kdevprojectfilter.so</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/27/kdevprojectmanagerview.so</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/27/kdevquickopen.so</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/27/kdevstandardoutputview.so</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/27/kdevswitchtobuddy.so</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/27/kdevtestview.so</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/27/kdevvcschangesviewplugin.so</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/27/kdevwelcomepage.so</Path>
+            <Path fileType="library">/usr/lib64/qt5/qml/org/kde/kdevplatform/libkdevelopdashboarddeclarativeplugin.so</Path>
+            <Path fileType="library">/usr/lib64/qt5/qml/org/kde/kdevplatform/qmldir</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/128x128/apps/bazaar.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/16x16/actions/breakpoint.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/22x22/actions/breakpoint.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/22x22/actions/run-clean.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/22x22/actions/run-install.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/git.svg</Path>
+            <Path fileType="data">/usr/share/kdevcodegen/licenses/Apache v2</Path>
+            <Path fileType="data">/usr/share/kdevcodegen/licenses/BSD</Path>
+            <Path fileType="data">/usr/share/kdevcodegen/licenses/Boost</Path>
+            <Path fileType="data">/usr/share/kdevcodegen/licenses/GPL v2</Path>
+            <Path fileType="data">/usr/share/kdevcodegen/licenses/GPL v2+ (KDE)</Path>
+            <Path fileType="data">/usr/share/kdevcodegen/licenses/GPL v3</Path>
+            <Path fileType="data">/usr/share/kdevcodegen/licenses/LGPL v2</Path>
+            <Path fileType="data">/usr/share/kdevcodegen/licenses/LGPL v2+ (KDE)</Path>
+            <Path fileType="data">/usr/share/kdevcodegen/licenses/LGPL v3</Path>
+            <Path fileType="data">/usr/share/kdevcodegen/licenses/MIT X11</Path>
+            <Path fileType="data">/usr/share/kdevcodegen/licenses/Mozilla v1.1</Path>
+            <Path fileType="data">/usr/share/kdevcodegen/templates/arguments_names.txt</Path>
+            <Path fileType="data">/usr/share/kdevcodegen/templates/arguments_types_names.txt</Path>
+            <Path fileType="data">/usr/share/kdevcodegen/templates/include_guard_cpp.txt</Path>
+            <Path fileType="data">/usr/share/kdevcodegen/templates/namespace_close_cpp.txt</Path>
+            <Path fileType="data">/usr/share/kdevcodegen/templates/namespace_open_cpp.txt</Path>
+            <Path fileType="data">/usr/share/kdevcodegen/templates/namespace_use_cpp.txt</Path>
+            <Path fileType="data">/usr/share/kdevcodeutils/templates/doxygen_cpp.txt</Path>
+            <Path fileType="data">/usr/share/kdevcodeutils/templates/phpdoc_php.txt</Path>
+            <Path fileType="data">/usr/share/kdevcodeutils/templates/rest_python.txt</Path>
+            <Path fileType="data">/usr/share/kdevplatform</Path>
+            <Path fileType="data">/usr/share/kservicetypes5/kdevelopplugin.desktop</Path>
+            <Path fileType="localedata">/usr/share/locale</Path>
+        </Files>
+    </Package>
+    <Package>
+        <Name>kdevplatform-devel</Name>
+        <Summary xml:lang="en">Development files for kdevplatform</Summary>
+        <Description xml:lang="en">KDevelop Platform Libraries, a set of libraries used to create plugins for IDEs based on kdevplatform.
+</Description>
+        <PartOf>programming.devel</PartOf>
+        <RuntimeDependencies>
+            <Dependency release="1">kdevplatform</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="header">/usr/include/</Path>
+            <Path fileType="library">/usr/lib64/cmake/</Path>
+            <Path fileType="library">/usr/lib64/lib*.so</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-04-19</Date>
+            <Version>5.1.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Update>
+    </History>
+</PISI>

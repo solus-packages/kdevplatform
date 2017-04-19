@@ -1,0 +1,68 @@
+name       : kdevplatform
+version    : 5.1.0
+release    : 1
+source     :
+    - https://download.kde.org/stable/kdevelop/5.1.0/src/kdevplatform-5.1.0.tar.xz : f09f3b807c9d360b894bc4439cce5b1cb23ff0754941dd26abf45c33b731aedb
+license    :
+    - GPL-2.0
+    - LGPL-2.0
+component  : programming
+summary    : KDevelop Platform Libraries API Reference
+description: |
+    KDevelop Platform Libraries, a set of libraries used to create plugins for IDEs based on kdevplatform.
+builddeps  :
+    - pkgconfig(gl)
+    - pkgconfig(Qt5Quick)
+    - pkgconfig(Qt5WebKit)
+    - extra-cmake-modules
+    - grantlee-devel
+    - karchive-devel
+    - kcmutils-devel
+    - kconfig-devel
+    - kdeclarative-devel
+    - kguiaddons-devel
+    - kiconthemes-devel
+    - ki18n-devel
+    - kitemmodels-devel
+    - kitemviews-devel
+    - kjobwidgets-devel
+    - kio-devel
+    - knewstuff-devel
+    - knotifications-devel
+    - knotifyconfig-devel
+    - kparts-devel
+    - kservice-devel
+    - ktexteditor-devel
+    - kwidgetsaddons-devel
+    - kwindowsystem-devel
+    - kxmlgui-devel
+    - libboost-devel
+    - libkomparediff2-devel
+    - sonnet-devel
+    - threadweaver-devel
+rundeps    :
+    - devel :
+        - grantlee-devel
+        - karchive-devel
+        - kcmutils-devel
+        - kconfig-devel
+        - kguiaddons-devel
+        - ki18n-devel
+        - kiconthemes-devel
+        - kitemviews-devel
+        - kjobwidgets-devel
+        - kio-devel
+        - knewstuff-devel
+        - knotifications-devel
+        - knotifyconfig-devel
+        - kparts-devel
+        - kservice-devel
+        - ktexteditor-devel
+        - kwindowsystem-devel
+        - threadweaver-devel
+setup      : |
+    %cmake .
+build      : |
+    %make
+install    : |
+    %make_install
