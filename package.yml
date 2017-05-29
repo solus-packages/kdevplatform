@@ -1,8 +1,8 @@
 name       : kdevplatform
-version    : 5.1.0
-release    : 1
+version    : 5.1.1
+release    : 2
 source     :
-    - https://download.kde.org/stable/kdevelop/5.1.0/src/kdevplatform-5.1.0.tar.xz : f09f3b807c9d360b894bc4439cce5b1cb23ff0754941dd26abf45c33b731aedb
+    - https://download.kde.org/stable/kdevelop/5.1.1/src/kdevplatform-5.1.1.tar.xz : 3159440512b1373c1a4b35f401ba1f81217de9578372b45137af141eeda6e726
 license    :
     - GPL-2.0
     - LGPL-2.0
