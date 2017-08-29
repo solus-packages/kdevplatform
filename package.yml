@@ -1,8 +1,8 @@
 name       : kdevplatform
-version    : 5.1.1
-release    : 2
+version    : 5.1.2
+release    : 3
 source     :
-    - https://download.kde.org/stable/kdevelop/5.1.1/src/kdevplatform-5.1.1.tar.xz : 3159440512b1373c1a4b35f401ba1f81217de9578372b45137af141eeda6e726
+    - https://download.kde.org/stable/kdevelop/5.1.2/src/kdevplatform-5.1.2.tar.xz : e622ddad552a678baaf1166d5cbdc5fd1192d2324300c52ef2d25f1c6778664a
 license    :
     - GPL-2.0
     - LGPL-2.0
@@ -39,6 +39,7 @@ builddeps  :
     - libboost-devel
     - libkomparediff2-devel
     - sonnet-devel
+    - subversion-devel
     - threadweaver-devel
 rundeps    :
     - devel :

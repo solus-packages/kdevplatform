@@ -49,6 +49,7 @@
             <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/27/kdevprojectmanagerview.so</Path>
             <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/27/kdevquickopen.so</Path>
             <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/27/kdevstandardoutputview.so</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/27/kdevsubversion.so</Path>
             <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/27/kdevswitchtobuddy.so</Path>
             <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/27/kdevtestview.so</Path>
             <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/27/kdevvcschangesviewplugin.so</Path>
@@ -57,9 +58,13 @@
             <Path fileType="library">/usr/lib64/qt5/qml/org/kde/kdevplatform/qmldir</Path>
             <Path fileType="data">/usr/share/icons/hicolor/128x128/apps/bazaar.png</Path>
             <Path fileType="data">/usr/share/icons/hicolor/16x16/actions/breakpoint.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/16x16/apps/subversion.png</Path>
             <Path fileType="data">/usr/share/icons/hicolor/22x22/actions/breakpoint.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/32x32/apps/subversion.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/64x64/apps/subversion.png</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/actions/breakpoint.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/git.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/subversion.svg</Path>
             <Path fileType="data">/usr/share/kdevcodegen/licenses/Apache v2</Path>
             <Path fileType="data">/usr/share/kdevcodegen/licenses/BSD</Path>
             <Path fileType="data">/usr/share/kdevcodegen/licenses/Boost</Path>
@@ -92,7 +97,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="2">kdevplatform</Dependency>
+            <Dependency release="3">kdevplatform</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/</Path>
@@ -101,9 +106,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2017-05-29</Date>
-            <Version>5.1.1</Version>
+        <Update release="3">
+            <Date>2017-08-29</Date>
+            <Version>5.1.2</Version>
             <Comment>Packaging update</Comment>
             <Name>Peter O&apos;Connor</Name>
             <Email>peter@solus-project.com</Email>
